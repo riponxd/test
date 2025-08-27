@@ -53,3 +53,85 @@
 ├── Makefile                       # Build instructions (if any)
 ├── README.md                      # Documentation
 └── report.pdf                     # Project Report
+
+```
+
+---
+
+⚙️ Installation & Usage
+Prerequisites
+
+GCC (GNU Compiler Collection)
+
+Flex
+
+Bison
+
+Build & Run (Windows Example)
+```bash
+bison -d calculator_with_conversion.y
+flex calculator_with_conversion.l
+gcc -o app calculator_with_conversion.tab.c lex.yy.c -mconsole
+.\app.exe
+```
+---
+
+🖥️ Example Inputs & Outputs
+```bash
+> 5+3*2
+= 11
+
+> sqrt(49)
+= 7
+
+> sin(3.14159/2)
+= 1.000000
+
+> log(10)
+= 2.302585
+```
+Invalid inputs (e.g., 5++2 or sqrt(-4)) will produce clear error messages.
+
+---
+
+📊 Performance
+
+Real-time computation without GUI overhead
+
+Low memory usage, runs on low-spec machines
+
+Provides clear error messages for invalid inputs
+
+---
+
+📌 Future Improvements
+
+Add complex numbers and matrix operations
+
+Implement variable assignment & calculation history
+
+Create a GUI frontend (GTK/Qt) while keeping CLI backend intact
+
+---
+
+👨‍💻 Contributors
+
+Omar Faruk Piash (ID: 1659)
+
+Md Faysal Ahamed (ID: 1376)
+
+Injamum Ul Hoque (ID: 1645)
+
+Md Sorowar Jahan Ishan (ID: 1559)
+
+Shahriar Ahamed Ripon (ID: 1019)
+
+---
+
+🎓 Acknowledgment
+
+This project was completed as part of CSE314: Compiler Design
+Department of Computer Science and Engineering
+Daffodil International University, Dhaka, Bangladesh
+
+📅 August 2025
