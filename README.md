@@ -58,16 +58,14 @@
 
 ---
 
-⚙️ Installation & Usage
-Prerequisites
+## ⚙️ Installation & Usage
+**Prerequisites**
 
-GCC (GNU Compiler Collection)
+- GCC (GNU Compiler Collection)
+- Flex
+- Bison
 
-Flex
-
-Bison
-
-Build & Run (Windows Example)
+## Build & Run (Windows Example)
 ```bash
 bison -d calculator_with_conversion.y
 flex calculator_with_conversion.l
@@ -76,7 +74,7 @@ gcc -o app calculator_with_conversion.tab.c lex.yy.c -mconsole
 ```
 ---
 
-🖥️ Example Inputs & Outputs
+## 🖥️ Example Inputs & Outputs
 ```bash
 > 5+3*2
 = 11
@@ -94,44 +92,37 @@ Invalid inputs (e.g., 5++2 or sqrt(-4)) will produce clear error messages.
 
 ---
 
-📊 Performance
+## 📊 Performance
 
-Real-time computation without GUI overhead
-
-Low memory usage, runs on low-spec machines
-
-Provides clear error messages for invalid inputs
+- Real-time computation without GUI overhead
+- Low memory usage, runs on low-spec machines
+- Provides clear error messages for invalid inputs
 
 ---
 
-📌 Future Improvements
+## 📌 Future Improvements
 
-Add complex numbers and matrix operations
-
-Implement variable assignment & calculation history
-
-Create a GUI frontend (GTK/Qt) while keeping CLI backend intact
+-  Add complex numbers and matrix operations
+- Implement variable assignment & calculation history
+- Create a GUI frontend (GTK/Qt) while keeping CLI backend intact
 
 ---
 
-👨‍💻 Contributors
+## 👨‍💻 Contributors
 
-Omar Faruk Piash (ID: 1659)
+**Shahriar Ahamed Ripon** (ID: 1019)
+**Omar Faruk Piash** (ID: 1659)
+**Md Faysal Ahamed** (ID: 1376)
+**Injamum Ul Hoque** (ID: 1645)
+**Md Sorowar Jahan Ishan** (ID: 1559)
 
-Md Faysal Ahamed (ID: 1376)
-
-Injamum Ul Hoque (ID: 1645)
-
-Md Sorowar Jahan Ishan (ID: 1559)
-
-Shahriar Ahamed Ripon (ID: 1019)
 
 ---
 
-🎓 Acknowledgment
+## 🎓 Acknowledgment
 
 This project was completed as part of CSE314: Compiler Design
 Department of Computer Science and Engineering
 Daffodil International University, Dhaka, Bangladesh
 
-📅 August 2025
+## 📅 <span style= "i">August 2025</span>
