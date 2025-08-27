@@ -110,11 +110,11 @@ Invalid inputs (e.g., 5++2 or sqrt(-4)) will produce clear error messages.
 
 ## 👨‍💻 Contributors
 
-**Shahriar Ahamed Ripon** (ID: 1019) 
-**Omar Faruk Piash** (ID: 1659) 
-**Md Faysal Ahamed** (ID: 1376) 
-**Injamum Ul Hoque** (ID: 1645) 
-**Md Sorowar Jahan Ishan** (ID: 1559) 
+**Shahriar Ahamed Ripon** (ID: 1019)`
+**Omar Faruk Piash** (ID: 1659)`
+**Md Faysal Ahamed** (ID: 1376)`
+**Injamum Ul Hoque** (ID: 1645)`
+**Md Sorowar Jahan Ishan** (ID: 1559)`
 
 
 ---
